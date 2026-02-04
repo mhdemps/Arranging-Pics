@@ -1,0 +1,82 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.top-row {
+    display: flex;
+    position: static;
+    justify-content: center;   /* or space-between, space-around, etc. */
+    align-items: center;       /* vertically aligns them */
+  }
+  
+  .top-row img {
+    width: auto;              /* optional: control size */
+    height: 400px;
+  }
+
+  .gym{
+    display: flex;
+    justify-content: center;   /* or space-between, space-around, etc. */
+    align-items: center;       /* vertically aligns them */
+  }
+  
+  .gym img {
+    width: auto;              /* optional: control size */
+    height: 500px;
+  }
+
+  .adjust{
+    position: relative;
+    top: 75px;
+    right: 30px;
+  }
+  
+  .moo{
+   display: flex;
+   justify-content: center;
+   height: 800px;
+   width: auto;
+  }
+
+  .scene{
+    display: flex;
+    justify-content: center;   /* or space-between, space-around, etc. */
+    align-items: center;       /* vertically aligns them */
+  }
+
+  .scene img {
+    width: auto;              /* optional: control size */
+    height: 900px;
+  }
+
+  .antique{
+    display: flex;
+    justify-content: center;   /* or space-between, space-around, etc. */
+    align-items: center;       /* vertically aligns them */
+  }
+  
+  .print{
+    position: absolute;
+    height: 100px;
+  }
+
+  .women{
+    display: flex;
+    align-items: center;
+    align-items: stretch; /* forces same height */
+    justify-content: center;   /* or space-between, space-around, etc. */
+
+  }
+
+  .women{
+    height: 500px;
+  }
+
+  .baddie{
+    position: fixed;
+  }
+
+  .baddie img {
+    height: 100px;
+  }
